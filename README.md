@@ -14,6 +14,11 @@ release notes, and the static GitHub Pages site. It intentionally does **not**
 contain Krit application source code, infrastructure configuration, database
 material, internal handoff notes, credentials, or secrets.
 
+New installers should be attached to a GitHub Release rather than committed to
+the repository. Update `release-history.json` and the static page from the same
+verified release manifest so the version, dates, filenames, and checksums stay
+in sync.
+
 ## Linux quick install
 
 ```sh
