@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0f0d">
+  <meta name="description" content="Official Krit Beta downloads, features, progress, checksums, and release history.">
+  <title>Krit Beta — Downloads and releases</title>
+  <link rel="icon" href="https://voice.krit.gg/static/favicon.png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <img src="https://voice.krit.gg/static/krit-logo.png" alt="">
+      <span>Krit</span><small>Beta</small>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#downloads">Downloads</a>
+      <a href="#features">Features</a>
+      <a href="#history">Version history</a>
+      <a href="https://voice.krit.gg/progress">Progress</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Official public release hub</p>
+        <h1>Your group, your games, <span>one home base.</span></h1>
+        <p class="lede">Get the current Krit apps, verify every package, explore what is live, and see exactly what changed across earlier releases.</p>
+        <div class="hero-actions">
+          <a id="recommended-download" class="button primary" href="#downloads">Choose a download</a>
+          <a class="button secondary" href="https://voice.krit.gg/">Open Krit on the web</a>
+        </div>
+      </div>
+      <aside class="release-card">
+        <span>Current desktop release</span>
+        <strong>2.0.31</strong>
+        <p>Published July 19, 2026</p>
+        <a href="https://github.com/mocfunky/krit-releases/releases/tag/desktop-v2.0.31">Release files and checksums →</a>
+      </aside>
+    </section>
+
+    <section id="downloads" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">Current builds</p><h2>Download Krit</h2></div>
+        <p id="platform-note">Choose the package for your device.</p>
+      </div>
+
+      <div class="download-grid">
+        <article class="download-card" data-platform="windows">
+          <span class="os-icon windows" aria-hidden="true">⊞</span>
+          <div><h3>Windows</h3><p>Windows 10 or newer · x64</p></div>
+          <a class="button primary" href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.31/Krit-Web-Setup-2.0.31.exe">Web installer</a>
+          <a class="text-link" href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.31/Krit-Setup-2.0.31.exe">Offline installer</a>
+        </article>
+
+        <article class="download-card" data-platform="linux">
+          <span class="os-icon linux" aria-hidden="true">◆</span>
+          <div><h3>Linux</h3><p>64-bit DEB, RPM, or AppImage</p></div>
+          <div class="terminal-row">
+            <code id="install-command">curl -fsSL https://voice.krit.gg/install-linux.sh | sh</code>
+            <button id="copy-command" type="button">Copy</button>
+          </div>
+          <div class="format-links">
+            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.31/krit_2.0.31_amd64.deb">DEB</a>
+            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.31/krit-2.0.31-1.x86_64.rpm">RPM</a>
+            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.31/Krit-2.0.31-x86_64.AppImage">AppImage</a>
+          </div>
+        </article>
+
+        <article class="download-card" data-platform="android">
+          <span class="os-icon android" aria-hidden="true">●</span>
+          <div><h3>Android</h3><p>Android 7.0 or newer</p></div>
+          <a class="button primary" href="https://github.com/mocfunky/krit-releases/releases/download/android-v1.1.5/Krit-Android-1.1.5.apk">Download APK 1.1.5</a>
+          <span class="small">Sideloading must be enabled on your device.</span>
+        </article>
+
+        <article class="download-card muted-card" data-platform="macos">
+          <span class="os-icon apple" aria-hidden="true">●</span>
+          <div><h3>macOS</h3><p>Native build is being prepared</p></div>
+          <a class="button secondary" href="https://voice.krit.gg/">Use the web app</a>
+        </article>
+      </div>
+
+      <p class="checksum-note">Every current installer is published as a GitHub Release asset. SHA-256 checksums are included with each release and in <a href="./release-history.json">machine-readable release metadata</a>.</p>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-heading"><div><p class="eyebrow">Built for groups that play</p><h2>What Krit brings together</h2></div></div>
+      <div class="feature-grid">
+        <article><i>01</i><h3>Chat, voice, and video</h3><p>Persistent text channels, private messages, LiveKit voice, webcams, screen sharing, replies, reactions, attachments, search, and rich formatting.</p></article>
+        <article><i>02</i><h3>Game-night tools</h3><p>Campaign Desk, Game Lobby, Community Atlas, scheduled sessions, characters, capacity, ready state, waitlists, and temporary voice spaces.</p></article>
+        <article><i>03</i><h3>Watch and listen together</h3><p>Twitch Watch Parties, Twitch chat, Spotify listening status, in-app Premium playback, and opt-in game activity.</p></article>
+        <article><i>04</i><h3>Real community control</h3><p>Hierarchical roles, 36 granular permissions, channel overrides, server grouping, rich rules, webhooks, moderation, and a three-level Control Center.</p></article>
+        <article><i>05</i><h3>Privacy and safety</h3><p>Verified email, optional 2FA, private attachment delivery, adult-media policy controls, quarantine scanning, blocking, reports, and session revocation.</p></article>
+        <article><i>06</i><h3>Native app experience</h3><p>Desktop auto-update, persistent login, media permissions, native window controls, unread badges, Android navigation, and responsive mobile layouts.</p></article>
+      </div>
+      <div class="progress-link">
+        <div><strong>Follow development in public</strong><span>The curated progress page separates what is live from what still needs work.</span></div>
+        <a class="button secondary" href="https://voice.krit.gg/progress">Open project progress</a>
+      </div>
+    </section>
+
+    <section id="history" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">Backdated from build records</p><h2>Version history</h2></div>
+        <p>Dates reflect the original package build or publication date.</p>
+      </div>
+
+      <div class="history-layout">
+        <nav class="history-tabs" aria-label="Version history platforms">
+          <button class="active" data-history-tab="desktop" type="button">Desktop</button>
+          <button data-history-tab="android" type="button">Android</button>
+        </nav>
+
+        <div id="desktop-history" class="timeline active">
+          <article><time>Jul 19, 2026</time><div><h3>Desktop 2.0.31 <span>Current</span></h3><p>Made the native Windows caption controls follow Krit’s selected theme, removing the mismatched title-bar seam. Published signed Windows installers plus matching AppImage, DEB, and RPM packages.</p></div></article>
+          <article><time>Jul 19, 2026</time><div><h3>Desktop 2.0.30</h3><p>First Authenticode-signed Windows release. Expanded game detection to 66 titles, added Minecraft Java title detection, and shipped desktop unread badges.</p></div></article>
+          <article><time>Jul 19, 2026</time><div><h3>Desktop 2.0.29</h3><p>Introduced the small Windows web installer and update-delivery packaging used by later releases.</p></div></article>
+          <article><time>Jul 18, 2026</time><div><h3>Desktop 2.0.26</h3><p>Consolidated the late-beta Linux formats and Windows package around the current media, account-security, connected-account, and native-window foundation.</p></div></article>
+          <article><time>Jul 16, 2026</time><div><h3>Desktop 2.0.25</h3><p>Enabled Chromium’s PipeWire camera backend for Linux webcams, verified an Elgato Facecam at 1280×720/30 FPS, and brought Windows packaging up to the matching shell.</p></div></article>
+          <article><time>Jul 14–15, 2026</time><div><h3>Desktop 2.0.17–2.0.24</h3><p>Rapid media and calling builds covering trusted camera permission, screen sharing, fullscreen behavior, audio calibration, and native desktop integration.</p></div></article>
+          <article><time>Jul 12–14, 2026</time><div><h3>Desktop 2.0.7–2.0.16</h3><p>Delivered the compact Focus Stack/DM rail, native private messaging support, server categories, richer settings, notifications, DeepFilterNet controls, and role/channel foundations.</p></div></article>
+          <article><time>Jul 12, 2026</time><div><h3>Desktop 2.0.6</h3><p>Restored the native video fullscreen control, tightened trusted-origin fullscreen policy, and synchronized browser fullscreen with the native window.</p></div></article>
+          <article><time>Jul 11, 2026</time><div><h3>Desktop 2.0.5</h3><p>First broadly published Krit-branded Windows and Linux release with the selected logo, corrected application icons, and verified public SHA-256 hashes.</p></div></article>
+          <article><time>Jul 6, 2026</time><div><h3>Desktop 2.0.1–2.0.4</h3><p>Early Windows and Debian packaging iterations. These established the native Electron wrapper and installer pipeline; detailed per-build public notes were not retained.</p></div></article>
+        </div>
+
+        <div id="android-history" class="timeline">
+          <article><time>Jul 18, 2026</time><div><h3>Android 1.1.5 <span>Current</span></h3><p>Current rollback-tested APK aligned with Krit’s connected-account, media, safety, and responsive hosted-app updates.</p></div></article>
+          <article><time>Jul 15, 2026</time><div><h3>Android 1.1.4</h3><p>Gaming-first mobile release with native navigation polish, corrected system-bar insets, exact Krit colors, launcher/splash branding, and reliable back handling.</p></div></article>
+          <article><time>Jul 14–15, 2026</time><div><h3>Android 1.1.2–1.1.3</h3><p>Intermediate inset, gesture, fullscreen, DM-layout, and native-shell correction builds retained for rollback.</p></div></article>
+          <article><time>Jul 12, 2026</time><div><h3>Android 1.1.1</h3><p>Added Krit’s native app bar and Home/Friends/DMs/Servers/Voice navigation, safe-area handling across Android 7–15, secure hosted navigation, uploads, downloads, voice, and fullscreen video.</p></div></article>
+          <article><time>Jul 12, 2026</time><div><h3>Android 1.1.0</h3><p>First native-navigation refinement following the initial packaged Android client.</p></div></article>
+          <article><time>Jul 12, 2026</time><div><h3>Android 1.0.0</h3><p>Initial Krit Android package with authenticated web-app integration, microphone permission handling, and APK signing.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Official Krit Beta public release repository</span>
+    <nav><a href="https://krit.gg/">krit.gg</a><a href="https://voice.krit.gg/">Web app</a><a href="https://voice.krit.gg/progress">Progress</a><a href="https://github.com/mocfunky/krit-releases/releases">All releases</a></nav>
+    <small>This repository contains packaged releases and public documentation only. Krit application source code is not published here.</small>
+  </footer>
+  <script src="./site.js"></script>
+</body>
+</html>
