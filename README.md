@@ -27,6 +27,11 @@ original build date in the release notes, available installers, and SHA-256
 checksums. Where detailed historical notes were not retained, the entry says so
 instead of reconstructing unsupported claims.
 
+Historical Desktop 2.0.1–2.0.9 tags use an internal zero-padded patch
+(`desktop-v2.0.01` through `desktop-v2.0.09`) so GitHub's tag-based release
+navigation sorts them numerically. Release titles and user-facing version
+numbers remain the normal unpadded 2.0.1–2.0.9.
+
 ## Linux quick install
 
 ```sh
