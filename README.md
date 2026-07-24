@@ -5,7 +5,6 @@ for **Krit Beta**.
 
 - Public site: `https://mocfunky.github.io/krit-releases/`
 - Web app: `https://voice.krit.gg/`
-- Project progress: `https://voice.krit.gg/progress`
 - Current desktop release: `2.0.31`
 - Current Android release: `1.1.5`
 - Native GitHub history: 32 releases containing all 59 retained installer
