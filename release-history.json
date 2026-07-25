@@ -4,29 +4,29 @@
   "generated_from": "Krit package manifests and verified project handoff records",
   "current": {
     "desktop": {
-      "version": "2.0.32",
-      "published": "2026-07-24",
-      "tag": "desktop-v2.0.32",
+      "version": "2.0.34",
+      "published": "2026-07-25",
+      "tag": "desktop-v2.0.34",
       "artifacts": {
         "windows_online": {
-          "filename": "Krit-Web-Setup-2.0.32.exe",
-          "sha256": "27e510c52fd540e0db09ed1e96eaef15b0b71f54e8b833c619b7d1ec7de126bf"
+          "filename": "Krit-Web-Setup-2.0.34.exe",
+          "sha256": "a3b188abd7dfa065360a88ef41c7707e81f9246cdc536eb2c141648883ce3ed5"
         },
         "windows_offline": {
-          "filename": "Krit-Setup-2.0.32.exe",
-          "sha256": "940f9c1f88497f78812d47bc60eff0959ebd73634f43a929eef31341b2db65d2"
+          "filename": "Krit-Setup-2.0.34.exe",
+          "sha256": "7945ceef5319dfb8ae347cca904dfae3dc5c109ffca32001d4b1636e9ac5c1a2"
         },
         "linux_appimage": {
-          "filename": "Krit-2.0.32-x86_64.AppImage",
-          "sha256": "9f7d016e8abb47806a92dc19e32481cd87873ee01ef42020a1161057834850f0"
+          "filename": "Krit-2.0.34-x86_64.AppImage",
+          "sha256": "909a7f0e24fdc3a460c37020bdcbc04f08c5c288d85a5d861483bb3a11d3bafa"
         },
         "linux_deb": {
-          "filename": "krit_2.0.32_amd64.deb",
-          "sha256": "6037448ec65c28b2525f9c59f16b35204b810ad458d6f5a8058907ca89ce86cc"
+          "filename": "krit_2.0.34_amd64.deb",
+          "sha256": "38609f4d1bc6fdb78b37dfd5a93a3605cc98f6b2598d32d752a71c3224a73bf7"
         },
         "linux_rpm": {
-          "filename": "krit-2.0.32-1.x86_64.rpm",
-          "sha256": "524d8db3a2fc2357bab62b2bab9489800439ad3cd00c645038e4e9148e874f22"
+          "filename": "krit-2.0.34-1.x86_64.rpm",
+          "sha256": "5c1c29558c5c59e7f9e823ca75da7a1a31614572b09090d2b27eac2d31e1d505"
         }
       }
     },
@@ -41,6 +41,12 @@
     }
   },
   "history": [
+    {
+      "platform": "desktop",
+      "version": "2.0.34",
+      "published": "2026-07-25",
+      "summary": "Fixed a startup freeze where local game-activity detection could block the entire app, including the tray icon, for a minute or more on machines with many installed Windows Store apps."
+    },
     {
       "platform": "desktop",
       "version": "2.0.32",
