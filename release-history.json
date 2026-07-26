@@ -4,29 +4,29 @@
   "generated_from": "Krit package manifests and verified project handoff records",
   "current": {
     "desktop": {
-      "version": "2.0.34",
-      "published": "2026-07-25",
-      "tag": "desktop-v2.0.34",
+      "version": "2.0.38",
+      "published": "2026-07-26",
+      "tag": "desktop-v2.0.38",
       "artifacts": {
         "windows_online": {
-          "filename": "Krit-Web-Setup-2.0.34.exe",
-          "sha256": "a3b188abd7dfa065360a88ef41c7707e81f9246cdc536eb2c141648883ce3ed5"
+          "filename": "Krit-Web-Setup-2.0.38.exe",
+          "sha256": "fb5fe91af16459b60180e7bbbd0226541efaac3743de8ae1e18c028cfd998d72"
         },
         "windows_offline": {
-          "filename": "Krit-Setup-2.0.34.exe",
-          "sha256": "7945ceef5319dfb8ae347cca904dfae3dc5c109ffca32001d4b1636e9ac5c1a2"
+          "filename": "Krit-Setup-2.0.38.exe",
+          "sha256": "eb129345028e6671f92693fb7909ad5b40b1c2cdb61237572aa749db56e6ba82"
         },
         "linux_appimage": {
-          "filename": "Krit-2.0.34-x86_64.AppImage",
-          "sha256": "909a7f0e24fdc3a460c37020bdcbc04f08c5c288d85a5d861483bb3a11d3bafa"
+          "filename": "Krit-2.0.38-x86_64.AppImage",
+          "sha256": "62508d8c3965f5cd29db750f401585d7127a239f76468c25a7736ebcbee6f319"
         },
         "linux_deb": {
-          "filename": "krit_2.0.34_amd64.deb",
-          "sha256": "38609f4d1bc6fdb78b37dfd5a93a3605cc98f6b2598d32d752a71c3224a73bf7"
+          "filename": "krit_2.0.38_amd64.deb",
+          "sha256": "9188ba74d185a9eacf0925967fca91188867f38d42b39d28c76368584c2ff763"
         },
         "linux_rpm": {
-          "filename": "krit-2.0.34-1.x86_64.rpm",
-          "sha256": "5c1c29558c5c59e7f9e823ca75da7a1a31614572b09090d2b27eac2d31e1d505"
+          "filename": "krit-2.0.38-1.x86_64.rpm",
+          "sha256": "a1f6fc7f778c25e9769e8c9a444c790c66867cb1fa44916543da14a966c34dfe"
         }
       }
     },
@@ -41,6 +41,24 @@
     }
   },
   "history": [
+    {
+      "platform": "desktop",
+      "version": "2.0.38",
+      "published": "2026-07-26",
+      "summary": "Comprehensively rebuilt the game-activity exclusion list after a third false positive, and fixed a startup race that could leave a stale second instance unresponsive to Quit, Check for updates, and Refresh."
+    },
+    {
+      "platform": "desktop",
+      "version": "2.0.36",
+      "published": "2026-07-26",
+      "summary": "Expanded the game-activity false-positive fix to cover standard Windows-bundled first-party apps after Microsoft.MicrosoftOfficeHub was found reporting as \"Playing.\""
+    },
+    {
+      "platform": "desktop",
+      "version": "2.0.35",
+      "published": "2026-07-26",
+      "summary": "Fixed a game-activity false positive from running Windows system components, added system-tray diagnostics and startup retry, and made the offline Windows installer the default download."
+    },
     {
       "platform": "desktop",
       "version": "2.0.34",

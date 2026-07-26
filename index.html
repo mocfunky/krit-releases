@@ -64,9 +64,9 @@
       </div>
       <aside class="release-card">
         <span>Current desktop release</span>
-        <strong>2.0.34</strong>
-        <p>Published July 25, 2026</p>
-        <a href="https://github.com/mocfunky/krit-releases/releases/tag/desktop-v2.0.34">Release files and checksums →</a>
+        <strong>2.0.38</strong>
+        <p>Published July 26, 2026</p>
+        <a href="https://github.com/mocfunky/krit-releases/releases/tag/desktop-v2.0.38">Release files and checksums →</a>
       </aside>
     </section>
 
@@ -80,8 +80,8 @@
         <article class="download-card" data-platform="windows">
           <span class="os-icon windows" aria-hidden="true">⊞</span>
           <div><h3>Windows</h3><p>Windows 10 or newer · x64</p></div>
-          <a class="button primary" href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.34/Krit-Web-Setup-2.0.34.exe">Web installer</a>
-          <a class="text-link" href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.34/Krit-Setup-2.0.34.exe">Offline installer</a>
+          <a class="button primary" href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.38/Krit-Setup-2.0.38.exe">Offline installer</a>
+          <a class="text-link" href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.38/Krit-Web-Setup-2.0.38.exe">Web installer</a>
         </article>
 
         <article class="download-card" data-platform="linux">
@@ -92,9 +92,9 @@
             <button id="copy-command" type="button">Copy</button>
           </div>
           <div class="format-links">
-            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.34/krit_2.0.34_amd64.deb">DEB</a>
-            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.34/krit-2.0.34-1.x86_64.rpm">RPM</a>
-            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.34/Krit-2.0.34-x86_64.AppImage">AppImage</a>
+            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.38/krit_2.0.38_amd64.deb">DEB</a>
+            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.38/krit-2.0.38-1.x86_64.rpm">RPM</a>
+            <a href="https://github.com/mocfunky/krit-releases/releases/download/desktop-v2.0.38/Krit-2.0.38-x86_64.AppImage">AppImage</a>
           </div>
         </article>
 
@@ -112,7 +112,7 @@
         </article>
       </div>
 
-      <p class="checksum-note">All 69 retained packages are published across 34 native GitHub Releases. SHA-256 checksums are included with each release and current hashes are also available in <a href="./release-history.json">machine-readable release metadata</a>. <a href="https://github.com/mocfunky/krit-releases/releases">Browse every GitHub release →</a></p>
+      <p class="checksum-note">All 84 retained packages are published across 37 native GitHub Releases. SHA-256 checksums are included with each release and current hashes are also available in <a href="./release-history.json">machine-readable release metadata</a>. <a href="https://github.com/mocfunky/krit-releases/releases">Browse every GitHub release →</a></p>
     </section>
 
     <section id="features" class="section">
@@ -140,7 +140,10 @@
         </nav>
 
         <div id="desktop-history" class="timeline active">
-          <article><time>Jul 25, 2026</time><div><h3>Desktop 2.0.34 <span>Current</span></h3><p>Fixed a startup freeze: local game-activity detection could block the entire app — including the tray icon — for a minute or more on machines with many installed Windows Store apps, due to a discovery step making one blocking system call per installed package. Detection is now fully asynchronous and never blocks startup. Published signed Windows installers plus matching AppImage, DEB, and RPM packages.</p></div></article>
+          <article><time>Jul 26, 2026</time><div><h3>Desktop 2.0.38 <span>Current</span></h3><p>Comprehensively rebuilt the game-activity exclusion list after a third false positive (Microsoft.WidgetsPlatformRuntime), covering many more Microsoft and third-party non-game apps while keeping real games like the Solitaire Collection, Minecraft, and Sea of Thieves detectable. Fixed a startup race where a stale second instance could leave Quit, Check for updates, and Refresh unresponsive.</p></div></article>
+          <article><time>Jul 26, 2026</time><div><h3>Desktop 2.0.36</h3><p>Expanded the game-activity false-positive fix to cover standard Windows-bundled first-party apps (Office Hub, Bing Weather, Mail and Calendar, and others) after Microsoft.MicrosoftOfficeHub was found reporting as "Playing."</p></div></article>
+          <article><time>Jul 26, 2026</time><div><h3>Desktop 2.0.35</h3><p>Fixed a game-activity false positive from a running Windows system component, added system-tray startup diagnostics and retry, and made the offline Windows installer the default download.</p></div></article>
+          <article><time>Jul 25, 2026</time><div><h3>Desktop 2.0.34</h3><p>Fixed a startup freeze: local game-activity detection could block the entire app — including the tray icon — for a minute or more on machines with many installed Windows Store apps, due to a discovery step making one blocking system call per installed package. Detection is now fully asynchronous and never blocks startup. Published signed Windows installers plus matching AppImage, DEB, and RPM packages.</p></div></article>
           <article><time>Jul 24, 2026</time><div><h3>Desktop 2.0.32</h3><p>Added hybrid local game-activity detection: recognizes already-installed Steam, Epic (via Heroic on Linux), GOG, Microsoft Store, and Battle.net games on-device, with no launcher account connection required, plus a manual mapping option confirmed against Krit's game database. Published signed Windows installers plus matching AppImage, DEB, and RPM packages.</p></div></article>
           <article><time>Jul 19, 2026</time><div><h3>Desktop 2.0.31</h3><p>Made the native Windows caption controls follow Krit’s selected theme, removing the mismatched title-bar seam. Published signed Windows installers plus matching AppImage, DEB, and RPM packages.</p></div></article>
           <article><time>Jul 19, 2026</time><div><h3>Desktop 2.0.30</h3><p>First Authenticode-signed Windows release. Expanded game detection to 66 titles, added Minecraft Java title detection, and shipped desktop unread badges.</p></div></article>
